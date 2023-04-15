@@ -36,4 +36,18 @@ const miObjeto = {
     unaCondicion: true,
 }
 
-console.log(miObjeto)
+//console.log(miObjeto)
+
+console.log(miObjeto.unNumero)
+
+
+//arreglos
+const arrVacio = []
+const arr =  [1, 2, 'Hola', "Mundo", miObjeto]
+
+console.log(arrVacio)
+console.log(arr)
+
+//agregando al arreglo
+arr.push (5)
+console.log(arr)
